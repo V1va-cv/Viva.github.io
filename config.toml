@@ -1,0 +1,42 @@
+# The URL the site will be built for
+base_url = "https://viva.github.io"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "anatole-zola"
+
+[languages.en]
+title = "Viva's Blos"
+description = "有趣的人是不同寻常的，不同寻常的人是怪人，所以怪人是有趣的"
+generate_feed = true
+taxonomies = [
+  {name = "tags"},
+]
+
+[extra.show]
+tags = true
+links = true
+
+[languages.en.translations]
+language_name = "English"
+about = "关于"
+home = "主页"
+tags = "标签"
+archive = "归档"
+links = "友情链接"
+date_format = "%Y-%m-%d"
+next_page = "Next Page"
+last_page = "Last Page"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+
+[extra]
+highlight_code = true
+# Put all your custom variables here
+
